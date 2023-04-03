@@ -30,9 +30,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <UserContext.Provider value={{state, dispatch}}>
-
         <Navigationbar />
-
       <div>
       <br/>
 
